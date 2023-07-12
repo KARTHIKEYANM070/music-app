@@ -1,0 +1,27 @@
+.DROPDOWN .DROP_DOWNA
+{
+    position: absolute;
+
+    border: 5px solid grey;
+    top:4.4rem;
+    right: 0.8rem;
+    width: 100px;
+    padding:15px; 
+    /* margin-right: 50px; */
+    border-radius: 15px;
+    background-color: rgb(48, 48, 46);
+    border: 2px solid gray;
+
+}
+.DROPDOWN .DROP_DOWNA::before{
+    content: '';
+    position: absolute;
+    top: -0.7rem;
+    right:  1.1em;
+    width: 20px;
+    height:  20px;
+    transform: rotate(45deg);
+    background-color: rgb(48, 48, 46) ;
+    border-left: 1px solid gray;
+    border-top: 1px solid gray;
+}
